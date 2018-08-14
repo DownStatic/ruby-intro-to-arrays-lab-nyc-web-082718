@@ -19,11 +19,13 @@ def last_element(a1)
 end
 
 def first_element_with_array(a1)
-  return a1.shift()
+  first = a1.unshift()
+  return first
 end
 
 def last_element_with_array(a1)
-  return a1.pop()
+  last = a1.pop()
+  return last
 end
 
 def length_of_array(a1)

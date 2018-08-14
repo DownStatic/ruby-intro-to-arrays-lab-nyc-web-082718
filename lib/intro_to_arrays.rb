@@ -4,7 +4,9 @@ end
 
 def array_with_two_elements(e1,e2)
   a1 = []
-  return a1 = [e1,e2]
+  a1[0] = e1
+  a1[1] = e2
+  return a1
 end
 
 def first_element(a1)

@@ -19,7 +19,7 @@ def last_element(a1)
 end
 
 def first_element_with_array(a1)
-  first = a1.unshift()
+  first = a1.shift()
   return first
 end
 

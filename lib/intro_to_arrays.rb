@@ -3,6 +3,7 @@ def instantiate_new_array
 end
 
 def array_with_two_elements(e1,e2)
+  a1 = []
   return a1 = [e1,e2]
 end
 
